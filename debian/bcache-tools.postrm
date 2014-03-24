@@ -1,2 +1,1 @@
-dpkg-maintscript-helper rm_conffile /etc/initramfs-tools/hooks/bcache 1.0.1-1~ -- "$@"
 #DEBHELPER#
