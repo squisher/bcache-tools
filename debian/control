@@ -1,5 +1,5 @@
 Source: bcache-tools
-Maintainer: David Mohr <debian@da.mcbf.net>
+Maintainer: David Mohr <david@mcbf.net>
 Section: utils
 Priority: optional
 Standards-Version: 3.9.5
