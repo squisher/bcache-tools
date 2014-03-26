@@ -1,0 +1,22 @@
+bcache-tools for Debian
+-----------------------
+
+Note: Always back important data up first!
+
+A simple setup guide:
+
+# Create a backing device:
+# This formats the partition HDD1 and creates /dev/bcache0
+$ make-bcache -B /dev/HDD1
+
+# Create a caching device, note the `Set UUID'
+$ make-bcache -C /dev/SSD1
+
+# Connect the two; this only needs to be done once
+$ echo "SetUUID" > /sys/block/bcache0/bcache/attach
+
+# You probably want write-back caching, otherwise only reads will be sped up.
+# Note that this means a dead SSD could result in data loss
+$ echo writeback > /sys/block/bcache0/cache_mode
+
+ -- David Mohr <david@mcbf.net>  Wed, 26 Mar 2014 00:09:49 -0600
