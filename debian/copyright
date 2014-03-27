@@ -52,7 +52,8 @@ License: GPL-2+
  `/usr/share/common-licenses/GPL-2'.
 
 Files: debian/*
-Copyright: 2014 Tom Strickx <tstrickx@rootcu.be>
+Copyright: 2014 Tom Strickx <tstrickx@rootcu.be>,
+           2014 David Mohr <david@mcbf.net>
 License: GPL-2+
  This program is free software; you can redistribute it
  and/or modify it under the terms of the GNU General Public
