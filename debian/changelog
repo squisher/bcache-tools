@@ -1,6 +1,6 @@
-bcache-tools (1.0.5-1) unstable; urgency=medium
+bcache-tools (1.0.7-1) unstable; urgency=medium
 
   * Based on work by Gabriel de Perthuis <g2p.code+debian@gmail.com>
   * Initial release. (Closes: #708132)
 
- -- David Mohr <david@mcbf.net>  Mon, 24 Mar 2014 00:30:41 -0600
+ -- David Mohr <david@mcbf.net>  Sun, 01 Jun 2014 14:52:01 -0600
