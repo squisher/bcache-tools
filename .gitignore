@@ -1,6 +1,0 @@
-/bcache-super-show
-/bcache-test
-/make-bcache
-/probe-bcache
-.*
-/*.o
